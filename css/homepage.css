@@ -1,6 +1,45 @@
-.jumbotron-fluid
+body {
+    background-color: #f4f4f4;
+}
+
+.navbar-logo-local {
+    width: 64px;
+    height: auto;
+}
+
+.navbar-local {
+    background-color: white;
+    background-image: none;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.footer-local {
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #bd1a15;
+    background-image: none;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+.footer-local a {
+    color: white;
+}
+
+.navbar-brand 
 {
-    background-image: url(../assets/jumbotron_img.jpg);
+    padding: 0;
+}
+
+header.main-image
+{
+    height: 80vh;
+    background-image: url(../assets/landing-img.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 80vh;    
 }
