@@ -1,6 +1,34 @@
 body {
     background-color: #f4f4f4;
 }
+
+.navbar-logo-local {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-local {
+    background-color: white;
+    background-image: none;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.footer-local {
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #bd1a15;
+    background-image: none;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+.footer-local a {
+    color: white;
+}
+
 .navbar-brand 
 {
     padding: 0;
