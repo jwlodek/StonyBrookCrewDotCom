@@ -1,3 +1,14 @@
 body {
     background-color: #f4f4f4;
 }
+.navbar-brand 
+{
+    padding: 0;
+}
+
+.jumbotron-fluid
+{
+    background-image: url(../assets/jumbotron_img.jpg);
+    background-size: cover;
+    height: 80vh;    
+}
