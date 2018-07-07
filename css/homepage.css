@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-logo-local {
-    width: 100px;
+    width: 70px;
     height: auto;
 }
 
@@ -11,8 +11,6 @@ body {
     background-color: white;
     background-image: none;
     background-repeat: no-repeat;
-    padding-top: 0px;
-    padding-bottom: 0px;
 }
 
 .footer-local {
