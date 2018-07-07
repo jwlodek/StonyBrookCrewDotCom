@@ -28,3 +28,15 @@ body {
 .footer-local a {
     color: white;
 }
+
+.navbar-brand 
+{
+    padding: 0;
+}
+
+.jumbotron-fluid
+{
+    background-image: url(../assets/jumbotron_img.jpg);
+    background-size: cover;
+    height: 80vh;    
+}
