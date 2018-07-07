@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-logo-local {
-    width: 100px;
+    width: 64px;
     height: auto;
 }
 
@@ -34,9 +34,12 @@ body {
     padding: 0;
 }
 
-.jumbotron-fluid
+header.main-image
 {
-    background-image: url(../assets/jumbotron_img.jpg);
+    height: 80vh;
+    background-image: url(../assets/landing-img.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 80vh;    
 }
