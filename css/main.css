@@ -60,9 +60,8 @@ body {
     margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 15px;
-    background-color: #bd1a15;
-    background-image: none;
-    background-repeat: no-repeat;
+    background-image: url("../assets/SBU_Red_background.jpg");
+    background-repeat: repeat;
     color: white;
     
 }
@@ -85,4 +84,9 @@ body {
     height: auto;
     float: right;
     padding-top: 10px;
+    margin-left: 20px;
+}
+
+.footer-copy-local {
+    margin-top: 20px;
 }
