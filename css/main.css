@@ -1,18 +1,30 @@
 body {
     background-color: #f4f4f4;
 }
-
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
 .navbar-logo-local {
     width: 50px;
     height: auto;
 }
-
 .navbar-local {
     background-color: white;
     background-image: none;
     background-repeat: no-repeat;
 }
-
+.navbar-nav li{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: black !important;
+}
 .navbar-brand-local {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -26,38 +38,15 @@ body {
 
 .element-nav-local{
     font-size: 20px;
-    color: #000000;
-    border-left-width: 1px;
-    border-style: solid;
-    border-right-width: 0;
-    border-top-width: 0;
-    border-bottom-width: 0;
-    border-color: #000000;
     padding-bottom: 10px;
 }
 
 .last-nav-local {
     font-size: 20px;
-    color: #000000;
-    border-left-width: 1px;
-    border-style: solid;
-    border-top-width: 0;
-    border-bottom-width: 0;
-    border-color: #000000;
-    border-right-width: 1px;
 }
 
 .element-nav-local:hover{
     color: #bd1a15;
-    background-color: lightgray;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    /*border-radius: 10px;*/
-}
-
-.last-nav-local:hover{
-    color: #bd1a15;
-    background-color: lightgray;
     transition-duration: 0.5s;
     cursor: pointer;
     /*border-radius: 10px;*/
