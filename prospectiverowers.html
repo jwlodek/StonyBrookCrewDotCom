@@ -9,6 +9,7 @@
     <title>Prospective Rowers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/prospectiverowers.css"/>
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <script src="js/main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
@@ -39,7 +40,64 @@
         <img class="extended-logo-local" src="assets/usbcrew_logo_long_edit.png" alt="USB Crew" />
     </nav>
 
+    <div class="recruitment-banner">
+        <img src="assets/Recruitment image.jpg" alt="Recruitment Image" />
+        <p>Are you interested in rowing for Stony Brook University Crew? We are currently looking for motivated rowers and coxswains willing
+            to help make this team great. Please fill out the form below, and one of our eboard members or coaches will get in touch with you!
+        </p>
+    </div>
+
+    <br style="clear: both"/>
+
+    <h2 class="form-title-local">Prospective Rower Interest Form</h2>
     <!--TODO: Form for Prospective rowers that updates a google sheet-->
+    <form class="form-local">
+        <div class="form-group">
+            <label for="rowerNameInput">Name:</label>
+            <input type="text" class="form-control" id="rowerNameInput" aria-describedby="rowerName" placeholder="Enter your first and last name">
+        </div>
+        <div class="form-group">
+            <label for="rowerEmailInput">Email address</label>
+            <input type="email" class="form-control" id="rowerEmailInput" aria-describedby="rowerEmail" placeholder="Enter your email">
+            <small id="rowerEmail" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="rowerYearInput">Year (Freshman, Sophomore, etc.):</label>
+            <input type="text" class="form-control" id="rowerYearInput" aria-describedby="rowerYear" placeholder="Enter year">
+            <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+        </div>
+        <div class="form-group">
+            <label for="rowerExperienceInput">Do you have prior rowing experience? If so, how much?</label>
+            <input type="text" class="form-control" id="rowerExperienceInput" aria-describedby="rowerExperience" placeholder="Describe your experience">
+            <small id="rowerExperience" class="form-text text-muted">If you don't have any rowing experience, please feel free to describe any athletic experience!</small>
+        </div>
+        <div class="form-group">
+            <label for="rowerCoxswainInput">Are you intereseted in becoming a coxwain?</label>
+            <input type="text" class="form-control" id="rowerCoxwainInput" aria-describedby="rowerCoxwain" placeholder="Please enter yes if interested, no if not interested">
+            <small id="rowerCoxwain" class="form-text text-muted">Coxswains are the leaders within the boat. Our boats consist of 4 
+                    rowers and 1 coxswain. The coxswain is in charge of the whole boat. 
+                    They decide which way to steer and command the rowers. This position 
+                    requires strong leadership skills and the ability to give directions to 
+                    large groups of people. Coxswains are typically smaller in stature in 
+                    order to fit in the coxswain's seat within the boat.</small>
+        </div>
+        <div class="form-group">
+            <label for="rower2KInput">If you have rowed before what was your best 2000m score?</label>
+            <input type="text" class="form-control" id="rower2KInput" aria-describedby="rower2K" placeholder="Enter your 2K score">
+            <!--<small id="rower2K" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+        </div>
+        <div class="form-group">
+            <label for="rowerPreferredContactInput">What is the best way to get in touch with you?</label>
+            <input type="text" class="form-control" id="rowerPreferredContactInput" aria-describedby="rowerPreferredContact" placeholder="Enter your preferred contact method">
+            <!--<small id="rower2K" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+        </div>
+        <div class="form-group">
+            <label for="rowerContactMeInput">Would you like to be added to the email contact list and recieve crew updates?</label>
+            <input type="text" class="form-control" id="rowerContactMeInput" aria-describedby="rowerContactMe" placeholder="Yes/No">
+            <!--<small id="rower2K" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 
     <footer class="page-footer font-small footer-local">
         <div class="container-fluid text-center text-md-left">

@@ -1,0 +1,30 @@
+.recruitment-banner {
+    margin: 5%;
+}
+
+.recruitment-banner img {
+    width: 70%;
+    float: right;
+}
+
+.recruitment-banner p{
+    width: 28%;
+    float: left;
+    font-size: 20px;
+    color: blue;
+    padding-right: 5px;
+    padding-top: 10%;
+}
+
+.form-title-local {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 10px;
+}
+.form-local {
+    margin: 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding:30px;
+}
