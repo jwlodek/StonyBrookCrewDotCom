@@ -22,9 +22,22 @@
     padding-top: 10px;
 }
 .form-local {
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 15px;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding:30px;
+}
+
+header.main-image
+{
+    height: 80vh;
+    background-image: url(../assets/Recruitment\ image.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
