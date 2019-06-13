@@ -101,7 +101,7 @@
 header.main-image /* About Us Header Image */
 {
     height: 55vh; /* Adjusts the height of the image on the About Us Page*/
-    background-image: url(../assets/harborpic1_cropped.JPG);
+    background-image: url(../assets/harborpic1_cropped.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
