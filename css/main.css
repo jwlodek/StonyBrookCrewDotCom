@@ -4,6 +4,7 @@ body {
 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
+    text-shadow: 1px 1px 2px #5F5F5F;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
@@ -50,10 +51,9 @@ p{
 
 .element-nav-local:hover{
     color: #bd1a15;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 10px;
-    background-color: gray;
 }
 
 .footer-local {

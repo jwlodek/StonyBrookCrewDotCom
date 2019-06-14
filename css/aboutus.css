@@ -1,9 +1,6 @@
 .aboutus-entry-pinned {
     width: 90%;
     margin: auto;
-    border: solid;
-    border-width: 2px;
-    border-radius: 5px;
     margin-top: 30px;
     padding: 20px;
 }
@@ -11,9 +8,6 @@
 .aboutus-entry {
     width: 90%;
     margin: auto;
-    border: solid;
-    border-width: 2px;
-    border-radius: 5px;
     margin-top: 60px;
     padding: 20px;
 }
@@ -51,18 +45,17 @@
 }
 
 .image-w-caption-local {
-    width: 60%;
+    width: 50%;
     background-color: lightgray;
     float: left;
-    border-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 10px;
 }
 
 .image-w-caption-local img{
-    width: 90%;
-    height: auto;
+    width: auto;
+    height: 50vh;
     float: none;
     border: 0;
     margin: auto;
@@ -103,4 +96,14 @@
     margin: 0;
     border: 0;
     font-size: 20px;
+}
+
+header.main-image /* About Us Header Image */
+{
+    height: 55vh; /* Adjusts the height of the image on the About Us Page*/
+    background-image: url(../assets/harborpic1_cropped.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
