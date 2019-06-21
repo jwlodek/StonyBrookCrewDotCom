@@ -58,29 +58,29 @@
 
     <h2 class="form-title-local">Prospective Rower Interest Form</h2>
     <!--TODO: Form for Prospective rowers that updates a google sheet-->
-    <form class="form-local">
+    <form class="form-local" action="https://formspree.io/usbcrew@gmail.com" method="POST">
         <div class="form-group">
             <label for="rowerNameInput">Name:</label>
-            <input type="text" class="form-control" id="rowerNameInput" aria-describedby="rowerName" placeholder="Enter your first and last name">
+            <input type="text" name="Name" class="form-control" id="rowerNameInput" aria-describedby="rowerName" placeholder="Enter your first and last name">
         </div>
         <div class="form-group">
             <label for="rowerEmailInput">Email address</label>
-            <input type="email" class="form-control" id="rowerEmailInput" aria-describedby="rowerEmail" placeholder="Enter your email">
+            <input type="email" name="Email" class="form-control" id="rowerEmailInput" aria-describedby="rowerEmail" placeholder="Enter your email">
             <small id="rowerEmail" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
             <label for="rowerYearInput">Year (Freshman, Sophomore, etc.):</label>
-            <input type="text" class="form-control" id="rowerYearInput" aria-describedby="rowerYear" placeholder="Enter year">
+            <input type="text" name="Year" class="form-control" id="rowerYearInput" aria-describedby="rowerYear" placeholder="Enter year">
             <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
         </div>
         <div class="form-group">
             <label for="rowerExperienceInput">Do you have prior rowing experience? If so, how much?</label>
-            <input type="text" class="form-control" id="rowerExperienceInput" aria-describedby="rowerExperience" placeholder="Describe your experience">
+            <input type="text" name="Rowing Experience" class="form-control" id="rowerExperienceInput" aria-describedby="rowerExperience" placeholder="Describe your experience">
             <small id="rowerExperience" class="form-text text-muted">If you don't have any rowing experience, please feel free to describe any athletic experience!</small>
         </div>
         <div class="form-group">
             <label for="rowerCoxswainInput">Are you intereseted in becoming a coxwain?</label>
-            <input type="text" class="form-control" id="rowerCoxwainInput" aria-describedby="rowerCoxwain" placeholder="Please enter yes if interested, no if not interested">
+            <input type="text" name="Coxswain-Interest" class="form-control" id="rowerCoxwainInput" aria-describedby="rowerCoxwain" placeholder="Please enter yes if interested, no if not interested">
             <small id="rowerCoxwain" class="form-text text-muted">Coxswains are the leaders within the boat. Our boats consist of 4 
                     rowers and 1 coxswain. The coxswain is in charge of the whole boat. 
                     They decide which way to steer and command the rowers. This position 
@@ -90,17 +90,17 @@
         </div>
         <div class="form-group">
             <label for="rower2KInput">If you have rowed before what was your best 2000m score?</label>
-            <input type="text" class="form-control" id="rower2KInput" aria-describedby="rower2K" placeholder="Enter your 2K score">
+            <input type="text" name="2K" class="form-control" id="rower2KInput" aria-describedby="rower2K" placeholder="Enter your 2K score">
             <!--<small id="rower2K" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
         </div>
         <div class="form-group">
             <label for="rowerPreferredContactInput">What is the best way to get in touch with you?</label>
-            <input type="text" class="form-control" id="rowerPreferredContactInput" aria-describedby="rowerPreferredContact" placeholder="Enter your preferred contact method">
+            <input type="text" name="GetInTouch" class="form-control" id="rowerPreferredContactInput" aria-describedby="rowerPreferredContact" placeholder="Enter your preferred contact method">
             <!--<small id="rower2K" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
         </div>
         <div class="form-group">
             <label for="rowerContactMeInput">Would you like to be added to the email contact list and recieve crew updates?</label>
-            <input type="text" class="form-control" id="rowerContactMeInput" aria-describedby="rowerContactMe" placeholder="Yes/No">
+            <input type="text" name="Would You like to be added to our mailing?" class="form-control" id="rowerContactMeInput" aria-describedby="rowerContactMe" placeholder="Yes/No">
             <!--<small id="rower2K" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
