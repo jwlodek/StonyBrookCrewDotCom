@@ -1,0 +1,106 @@
+.aboutus-entry-pinned {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.aboutus-entry {
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.image-entry-local {
+    width: 30.3%;
+    float: left;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.image-entry-local p {
+    width: 80%;
+    height: auto;
+    float: none;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 0;
+}
+
+.image-entry-local img{
+    width: 80%;
+    height: auto;
+    float: none;
+    border: 0;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.image-w-caption-local {
+    background-color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.image-w-caption-local img{
+    width: auto;
+    height: 50vh;
+    border: 0;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    /*border-radius: 50px;*/
+}
+
+.image-w-caption-local p {
+    width: 80%;
+    height: auto;
+    float: none;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 0;
+
+}
+
+.text-section-local{
+    width: auto;
+    border-radius: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+    border: 0;
+    float: left;
+}
+
+.text-section-local h3 {
+    text-align: left;
+    font-size: 24px;
+}
+
+.text-section-local p {
+    text-align: left;
+    margin: 0;
+    border: 0;
+    font-size: 20px;
+}
+
+header.main-image /* About Us Header Image */
+{
+    height: 85vh; /* Adjusts the height of the image on the About Us Page*/
+    background-image: url(../assets/history/old_crew_cropped.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
