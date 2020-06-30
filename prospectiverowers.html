@@ -1,46 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.0/css/mdb.min.css" rel="stylesheet">
     <title>Prospective Rowers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/prospectiverowers.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/prospectiverowers.css" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <script src="js/main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 </head>
+
 <body>
 
     <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-md navbar-local">
+    <nav class="navbar navbar-light white">
         <a class="navbar-brand navbar-brand-local" href="index.html">
             <img src="assets/SBU Crew Logo.png" class="navbar-logo-local" alt="SBUCrew" />
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <img class="extended-logo-local" src="assets/usbcrew_logo_long_edit.png" alt="USB Crew" />
+        <!-- Collapse button -->
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                    class="fas fa-bars fa-1x"></i></span></button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+            <!-- Links -->
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item px-2">
-                    <a class="nav-link element-nav-local" href="index.html">Homepage</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link element-nav-local" href="aboutus.html">About Us</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
                 </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link element-nav-local last-nav-local" href="prospectiverowers.html">Prospective Rowers</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="prospectiverowers.html">Prospective Rowers</a>
                 </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link element-nav-local last-nav-local" href="history.html">History</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">History</a>
                 </li>
             </ul>
+
         </div>
-        <img class="extended-logo-local" src="assets/usbcrew_logo_long_edit.png" alt="USB Crew" />
+
     </nav>
 
     <!--Old recruitment banner, didn't look good, trying something new
@@ -54,53 +68,64 @@
     <header class="main-image text-center text-white d-flex">
     </header>
 
-    <br style="clear: both"/>
+    <br style="clear: both" />
 
     <h2 class="form-title-local">Prospective Rower Interest Form</h2>
     <!--TODO: Form for Prospective rowers that updates a google sheet-->
     <form class="form-local" action="https://formspree.io/usbcrew@gmail.com" method="POST">
         <div class="form-group">
             <label for="rowerNameInput">Name:</label>
-            <input type="text" name="Name" class="form-control" id="rowerNameInput" aria-describedby="rowerName" placeholder="Enter your first and last name">
+            <input type="text" name="Name" class="form-control" id="rowerNameInput" aria-describedby="rowerName"
+                placeholder="Enter your first and last name">
         </div>
         <div class="form-group">
             <label for="rowerEmailInput">Email address</label>
-            <input type="email" name="Email" class="form-control" id="rowerEmailInput" aria-describedby="rowerEmail" placeholder="Enter your email">
+            <input type="email" name="Email" class="form-control" id="rowerEmailInput" aria-describedby="rowerEmail"
+                placeholder="Enter your email">
             <small id="rowerEmail" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
             <label for="rowerYearInput">Year (Freshman, Sophomore, etc.):</label>
-            <input type="text" name="Year" class="form-control" id="rowerYearInput" aria-describedby="rowerYear" placeholder="Enter year">
+            <input type="text" name="Year" class="form-control" id="rowerYearInput" aria-describedby="rowerYear"
+                placeholder="Enter year">
             <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
         </div>
         <div class="form-group">
             <label for="rowerExperienceInput">Do you have prior rowing experience? If so, how much?</label>
-            <input type="text" name="Rowing Experience" class="form-control" id="rowerExperienceInput" aria-describedby="rowerExperience" placeholder="Describe your experience">
-            <small id="rowerExperience" class="form-text text-muted">If you don't have any rowing experience, please feel free to describe any athletic experience!</small>
+            <input type="text" name="Rowing Experience" class="form-control" id="rowerExperienceInput"
+                aria-describedby="rowerExperience" placeholder="Describe your experience">
+            <small id="rowerExperience" class="form-text text-muted">If you don't have any rowing experience, please
+                feel free to describe any athletic experience!</small>
         </div>
         <div class="form-group">
             <label for="rowerCoxswainInput">Are you intereseted in becoming a coxwain?</label>
-            <input type="text" name="Coxswain-Interest" class="form-control" id="rowerCoxwainInput" aria-describedby="rowerCoxwain" placeholder="Please enter yes if interested, no if not interested">
-            <small id="rowerCoxwain" class="form-text text-muted">Coxswains are the leaders within the boat. Our boats consist of 4 
-                    rowers and 1 coxswain. The coxswain is in charge of the whole boat. 
-                    They decide which way to steer and command the rowers. This position 
-                    requires strong leadership skills and the ability to give directions to 
-                    large groups of people. Coxswains are typically smaller in stature in 
-                    order to fit in the coxswain's seat within the boat.</small>
+            <input type="text" name="Coxswain-Interest" class="form-control" id="rowerCoxwainInput"
+                aria-describedby="rowerCoxwain" placeholder="Please enter yes if interested, no if not interested">
+            <small id="rowerCoxwain" class="form-text text-muted">Coxswains are the leaders within the boat. Our boats
+                consist of 4
+                rowers and 1 coxswain. The coxswain is in charge of the whole boat.
+                They decide which way to steer and command the rowers. This position
+                requires strong leadership skills and the ability to give directions to
+                large groups of people. Coxswains are typically smaller in stature in
+                order to fit in the coxswain's seat within the boat.</small>
         </div>
         <div class="form-group">
             <label for="rower2KInput">If you have rowed before what was your best 2000m score?</label>
-            <input type="text" name="2K" class="form-control" id="rower2KInput" aria-describedby="rower2K" placeholder="Enter your 2K score">
+            <input type="text" name="2K" class="form-control" id="rower2KInput" aria-describedby="rower2K"
+                placeholder="Enter your 2K score">
             <!--<small id="rower2K" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
         </div>
         <div class="form-group">
             <label for="rowerPreferredContactInput">What is the best way to get in touch with you?</label>
-            <input type="text" name="GetInTouch" class="form-control" id="rowerPreferredContactInput" aria-describedby="rowerPreferredContact" placeholder="Enter your preferred contact method">
+            <input type="text" name="GetInTouch" class="form-control" id="rowerPreferredContactInput"
+                aria-describedby="rowerPreferredContact" placeholder="Enter your preferred contact method">
             <!--<small id="rower2K" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
         </div>
         <div class="form-group">
-            <label for="rowerContactMeInput">Would you like to be added to the email contact list and recieve crew updates?</label>
-            <input type="text" name="Would You like to be added to our mailing?" class="form-control" id="rowerContactMeInput" aria-describedby="rowerContactMe" placeholder="Yes/No">
+            <label for="rowerContactMeInput">Would you like to be added to the email contact list and recieve crew
+                updates?</label>
+            <input type="text" name="Would You like to be added to our mailing?" class="form-control"
+                id="rowerContactMeInput" aria-describedby="rowerContactMe" placeholder="Yes/No">
             <!--<small id="rower2K" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
@@ -113,8 +138,10 @@
                     <h5 class="font-weight-bold text-uppercase mt-6 mb-6">Member Organizations:</h5>
                     <ul class="list-unstyled">
                         <li><a href="www.usrowing.org"><u>US Rowing</u></a></li>
-                        <li><a href="https://americancollegiaterowing.com/"><u>American Collegiate Rowing Association</u></a></li>
-                        <li><a href="http://stonybrookusg.org/"><u>Stony Brook Undergraduate Student Government</u></a></li>
+                        <li><a href="https://americancollegiaterowing.com/"><u>American Collegiate Rowing
+                                    Association</u></a></li>
+                        <li><a href="http://stonybrookusg.org/"><u>Stony Brook Undergraduate Student Government</u></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-5 footer-social-local">
@@ -124,25 +151,35 @@
                             <div class=social-links>
                                 <a href="https://www.instagram.com/stonybrookrowing/">
                                     <img class="social-media-local" src="assets/Instagram-Logo-Black.png"
-                                            onmouseover="image_hover(this, instagram_white)" onmouseout="image_hover(this, instagram_black)"/>
-                                    </a>
-                                    <a href="https://www.facebook.com/StonyBrookCrew/">
-                                        <img class="social-media-local" src="assets/Facebook-Logo-Black.png" 
-                                            onmouseover="image_hover(this, facebook_white)" onmouseout="image_hover(this, facebook_black)"/>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                        <br style="clear: both;" />
-                        <p class="footer-copy-local">Copyright(c): 2018 - Stony Brook Crew</p>
-                    </div>
-                </div>            
+                                        onmouseover="image_hover(this, instagram_white)"
+                                        onmouseout="image_hover(this, instagram_black)" />
+                                </a>
+                                <a href="https://www.facebook.com/StonyBrookCrew/">
+                                    <img class="social-media-local" src="assets/Facebook-Logo-Black.png"
+                                        onmouseover="image_hover(this, facebook_white)"
+                                        onmouseout="image_hover(this, facebook_black)" />
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <br style="clear: both;" />
+                    <p class="footer-copy-local">Copyright(c): 2020 - Stony Brook Crew</p>
+                </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-    <!-- Bootstrap Javascript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.0/js/mdb.min.js"></script>
 </body>
+
 </html>

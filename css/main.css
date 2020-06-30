@@ -1,3 +1,23 @@
+.fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    .dark-blue-text {
+    color: #0A38F5;
+    }
+    .dark-pink-text {
+    color: #AC003A;
+    }
+    .dark-amber-text {
+    color: #ff6f00;
+    }
+    .dark-teal-text {
+    color: #004d40;
+    }
+
+
 body {
     background-color: #f4f4f4;
 }
@@ -12,6 +32,7 @@ h2{
 p{
     font-family: 'Roboto', sans-serif;
 }
+/*
 .navbar-logo-local {
     width: 50px;
     height: auto;
@@ -28,15 +49,21 @@ p{
     letter-spacing: 3px;
     color: black !important;
 }
+*/
 .navbar-brand-local {
     padding-top: 5px;
     padding-bottom: 5px;
+    height: 4rem;
 }
 
+.navbar-brand-local img {
+    height: 100%;
+}
 
 .extended-logo-local {
-    width: 300px;
-    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 4rem;
     float: right;
 }
 
@@ -56,6 +83,7 @@ p{
     border-radius: 10px;
 }
 
+
 .footer-local {
     margin-top: 30px;
     padding-top: 30px;
@@ -63,7 +91,6 @@ p{
     background-image: url("../assets/SBU_Red_background.jpg");
     background-repeat: repeat;
     color: white;
-    
 }
 
 .footer-local a {
